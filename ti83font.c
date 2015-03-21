@@ -1,5 +1,5 @@
-int ti83font(char this_letter, char *mem_array) {
-	switch (this_letter) {
+int ti83font(char this_ascii, char *mem_array) {
+	switch (this_ascii) {
 		case 65: //A
 			mem_array[0] = 0b00111111;
 			mem_array[1] = 0b01001000;

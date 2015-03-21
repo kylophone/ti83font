@@ -3,4 +3,4 @@
 * @param mem_array display memory. Allocate 5 bytes.
 * http://tibasicdev.wikidot.com/83lgfont
 */
-int ti83font(char this_letter, char *mem_array);
+int ti83font(char this_ascii, char *mem_array);
