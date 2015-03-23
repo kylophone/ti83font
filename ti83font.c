@@ -471,6 +471,54 @@ int ti83font(char this_ascii, char *mem_array) {
 			mem_array[3] = 0b01010001;
 			mem_array[4] = 0b01100001;
 			return 0;
+
+		case 91: //[
+			mem_array[0] = 0b00000000;
+			mem_array[1] = 0b00000000;
+			mem_array[2] = 0b01111111;
+			mem_array[3] = 0b01000001;
+			mem_array[4] = 0b00000000;
+			return 0;
+
+		case 92: //\
+			mem_array[0] = 0b00100000;
+			mem_array[1] = 0b00010000;
+			mem_array[2] = 0b00001000;
+			mem_array[3] = 0b00000100;
+			mem_array[4] = 0b00000010;
+			return 0;
+
+		case 93: //]
+			mem_array[0] = 0b00000000;
+			mem_array[1] = 0b01000001;
+			mem_array[2] = 0b01111111;
+			mem_array[3] = 0b00000000;
+			mem_array[4] = 0b00000000;
+			return 0;
+
+		case 94: //^
+			mem_array[0] = 0b00010000;
+			mem_array[1] = 0b00100000;
+			mem_array[2] = 0b01000000;
+			mem_array[3] = 0b00100000;
+			mem_array[4] = 0b00010000;
+			return 0;
+
+		case 95: //_
+			mem_array[0] = 0b00000001;
+			mem_array[1] = 0b00000001;
+			mem_array[2] = 0b00000001;
+			mem_array[3] = 0b00000001;
+			mem_array[4] = 0b00000001;
+			return 0;
+
+		case 96: //`
+			mem_array[0] = 0b00000000;
+			mem_array[1] = 0b00000000;
+			mem_array[2] = 0b01100000;
+			mem_array[3] = 0b00010000;
+			mem_array[4] = 0b00000000;
+			return 0;
 			
 		case 97: //a
 			mem_array[0] = 0b00000010;
