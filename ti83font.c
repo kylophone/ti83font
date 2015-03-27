@@ -766,6 +766,6 @@ int ti83font(char this_ascii, char *mem_array) {
 			mem_array[2] = 0b00000000;
 			mem_array[3] = 0b00000000;
 			mem_array[4] = 0b00000000;
-			return 1;
+			return -1;
 	}
 }
